@@ -289,15 +289,15 @@ Advanced Exercise
 Functions:
 
 1- Create a function that can convert °F in °C and show the result on the screen. -->
-<div class="bgCelsius <?= $class; ?>">
+<!-- <div class="bgCelsius <?= $class; ?>">
     <div class="celsius_text">
     <p>Please enter the temperature value in °F:</p>
         <form action="index.php" method= "GET">
            Fahrenheit: <input type="number" class="celsius_input"  name="celsius" />
            <input  type="submit" class="celsius_btn" name="submit" />
-       </form> 
+       </form>  -->
 
-       <?php
+       <!-- <?php
 
         if(isset($_GET[ 'submit']))
         {
@@ -338,9 +338,9 @@ Functions:
            }
        }
 
-        ?> 
+        ?>  -->
 
-    </div>
+    <!-- </div> -->
         
         
 
